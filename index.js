@@ -10,9 +10,9 @@ const bot = new Discord.Client();
 const prefix = "!";
 
 var connection = mysql.createConnection({
-    host: '127.0.0.1',
+    host: 'localhost',
     user: 'root',
-    password: '!2345Sheepy',
+    password: 'password',
     database: 'test1'
   });
   
