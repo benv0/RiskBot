@@ -1,0 +1,19 @@
+{
+  "name": "riskbot",
+  "version": "1.0.0",
+  "description": "bot to show item stacking and others",
+  "main": "riskbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minh T Vo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "csvtojson": "^2.0.10",
+    "discord.js": "^12.3.1",
+    "math.js": "^1.1.46",
+    "mathjs": "^7.2.0",
+    "mysql": "^2.18.1"
+  }
+}

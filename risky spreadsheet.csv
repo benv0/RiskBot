@@ -1,0 +1,54 @@
+rarity,description,name,formula ,secondary_formula ,search key
+common,Deal an addition $% damage to bosses,Armor-Piercing Rounds,20 * n,N/A,armor piercing
+common,Add $ charges of your Secondary skill.,Backup Magazine,n,N/A,magazine
+common,Activating an interactable launches $ fireworks that deal 300% base damage.,Bundle of Fireworks,4 + 4 * n ,N/A,fireworks
+common,"After standing still for 2 seconds, create a zone that heals for $% of your health every second to all allies within @m.",Bustling Fungus,2.25 + 2.25 * n,1.5 + 1.5 * n,fungus
+common,Increases base health regeneration by $hp/s while outside of combat.,Cautious Slug,4 * n,N/A,slug
+common,Deal $% damage to enemies above 90% health,Crowbar,100 + 50 * n,N/A,crowbar
+common,"Sprint speed is improved by $% 
+",Energy Drink,10 + 20 * n,N/A,energy drink
+common,"Increase damage to enemies within 13m by $%.
+",Focus Crystal,15 * n,N/A,focus crystal
+common,"Increases base health regeneration by +2 hp/s for $s after killing an enemy.
+",Fresh Meat,3 * n,N/A,meat
+common,"Killing an enemy ignites all enemies within $m. Enemies burn for @% base damage.
+",Gasoline,8 + 4 * n,75 + 75 * n,gasoline
+common,"Your attacks have a $% chance to 'Critically Strike', dealing double damage.        ",Lens-Maker's Glasses,10 * n,N/A,lenses
+common,"2 seconds after getting hurt, heal for 20 plus an additional $% of maximum health.        ",Medkit,5 * n,N/A,medkit
+common,Killing an enemy spawns a healing orb that heals for 8 plus an additional $% of maximum health.        ,Monster Tooth,2 * n,N/A,monster tooth
+common,Increases movement speed by $%        ,Paul's Goat Hoof,14 * n,N/A,goat hoof
+common,Gain a shield equal to $% of your maximum health. Recharges outside of danger.        ,Personal Shield Generator,8 * n,N/A,shield generator
+common,Reduce all incoming damage by $. Cannot be reduced below 1.        ,Repulsion Armor Plate,5 * n,N/A,armor plate
+common,A hidden cache containing an item will appear in a random location on each stage. Rarity of uncommon is $%. Rarity of legendary is @%.,Rusted Key,((20 * n)/(80 + 20 * n + n * n))*100,((n * n)/(80 + 20 * n + n * n))*100,rusted key
+common,Increases attack speed by $%.  ,Soldier's Syringe,15 * n,N/A,syringe
+common,"$% chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.        ",Sticky Bomb,5 * n,N/A,sticky bomb
+common,$% chance on hit to stun enemies for 2 seconds.        ,Stun Grenade,(1-1/(1+0.05*n))*100,N/A,stun grenade
+common,Gain a temporary barrier on kill for $ health     ,Topaz Brooch,15 * n,N/A,topaz brooch
+common,$% chance to block incoming damage. Unaffected by luck.        ,Tougher Times,(1-1/(1+0.15*n))*100,N/A,tougher times
+common,$% chance to bleed an enemy for 240% base damage.        ,Tri-Tip Dagger,15 * n,N/A,tritip dagger
+common,"On level up or starting the Teleporter event, drop a banner that strengthens all allies within $m. Raise attack and movement speed by 30%.        ",Warbanner,8 + 8 * n,N/A,warbanner
+uncommon,10% chance to fire a missile that deals $% TOTAL damage.        ,AtG Missle Mk.1,300 * n,N/A,atg missile
+uncommon,$% chance on kill to drop an ammo pack that resets all skill cooldowns.        ,Bandolier,(1 - 1 / (1 + n) ^ 0.33) * 100,N/A,bandolier
+uncommon,Killing 3 enemies within 1 second sends you into a frenzy for $s. Increases movement speed by 50% and attack speed by 100%.        ,Berzerker's Pauldron,2 + 4 * n,N/A,berserker pauldron
+uncommon,Slow enemies on hit for -60% movement speed for $s.        ,Chronobauble,2 * n,N/A,chronobauble
+uncommon,"Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% from all sources for $ seconds.        ",Death Mark,7 * n,N/A,death mark
+uncommon,Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by $%.        ,Fuel Cell,((1 - 0.15) ^ n) * 100,N/A,fuel cell
+uncommon,$% chance on kill to drop a treasure worth $25. Scales over time.        ,Ghor's Tome,4 * n,N/A,ghors tome
+uncommon,Gain 5% critical chance. Critical strikes heal for $ health.        ,Harvester's Scythe,4 + 4 * n,N/A,harvesters scythe
+uncommon,Gain +$ maximum jump count.        ,Hopoo Feather,n,N/A,hopoo feather
+uncommon,"Killing an enemy increases your health permanently by $, up to a maximum of @ health.        ",Infusion,n,100*n,infusion
+uncommon,"Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing $% TOTAL damage over time. Recharges every 10 seconds.        ",Kjaro's Band,300 * n,N/A,kjaros band
+uncommon,Dealing damage heals you for $ health.        ,Leeching Seed,n,N/A,leeching seed
+uncommon,"Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs $ times.        ",Lepton Daisy,n,N/A,lepton daisy
+uncommon,Instantly kill Elite monsters below $% health.        ,Old Guillotine,(1 - 1 / (1 + 0.13 * n)) * 100,,old guillotine
+uncommon,Chance on taking damage to gain 40% movement speed and invisibility for $s. 1% damage taken = 1% chance to turn invisible        ,Old War Stealthkit,1.5 + 1.5 * n,N/A,stealthkit
+uncommon,Gain 5% critical chance. Critical strikes increase attack speed by 12%. Maximum cap of $% attack speed.        ,Predatory Instincts,12 + 24 * n,N/A,predatory instincts
+uncommon,"Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to $ targets in a @m radius        ",Razorwire,3 + 2 * n,15 + 10 * n,razorwire
+uncommon,Leaving combat boosts your movement speed by $%.        ,Red Whip,30 * n,N/A,red whip
+uncommon,Increase armor by $ while sprinting.        ,Rose Buckler,30 * n,N/A,rose buckler
+uncommon,"Hits that deal more than 400% damage also blasts enemies with a runic ice blast, slowing them by 80% for $s and dealing @% TOTAL damage. Recharges every 10 seconds.        ",Runald's Band,3 * n,250 * n,runalds band
+uncommon,Activating an interactable summons a Squid Turret that attacks nearby enemies at $% attack speed. Lasts 30 seconds.        ,Squid Polyp,100 * n,N/A,squid polyp
+uncommon,25% chance to fire chain lightning for 80% TOTAL damage on up to $ targets within @m.        ,Ukulele,1 + 2 * n,18 + 2 * n,ukulele
+uncommon,Activating your Equipment gives you +70% attack speed for $s.        ,War Horn,4 + 4 * n,N/A,war horn
+uncommon,Jumping while sprinting boosts you forward by $m.        ,Wax Quail,10 * n,N/A,wax quail
+uncommon,"On killing an enemy, spawn a lava pillar in a $m radius for @% base damage.        ",Will-o'-the-wisp,9.6 + 2.4 * n,70 +  280 * n,will o wisp
